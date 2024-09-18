@@ -23,7 +23,7 @@ The core functionality revolves around **sentiment analysis** using pre-trained 
 
 3. **CSV for Response Management**: The chatbot pulls its responses from a CSV file, where each row contains a response mapped to a sentiment type. This allows for flexible and dynamic responses.
 
-4. **Google Colab or Local Environment**: The project can be run in a local Python environment or in Google Colab for ease of setup. Colab also offers free GPU support, which speeds up the model inference.
+4. **Google Colab**: The project was run in Google Colab for ease of setup. Colab also offers free GPU support, which speeds up the model inference.
 
 ## Installation & Setup
 
@@ -51,8 +51,8 @@ The core functionality revolves around **sentiment analysis** using pre-trained 
    python app.py
    ```
 
-5. **Run in Google Colab **:
-   If you're using Google Colab, make sure to enable GPU for faster inference. You can set this in **Runtime** > **Change runtime type** and choose **GPU**.
+5. **Run in Google Colab**:
+   If you're using Google Colab, make sure to enable GPU for faster inference. You can set this in **Runtime** > **Change runtime type** and choose **T4 GPU**.
 
 6. **Access the Web Interface**:
    Once the chatbot starts, a Gradio interface will be launched, and you can access the chatbot through the provided URL in your browser. The chatbot will analyze your inputs and respond based on the detected sentiment.
